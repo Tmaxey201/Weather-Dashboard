@@ -20,19 +20,30 @@
         <div class="row">
             <div class="col-sm-4 ">
                 
-                <h4 class="pt-1"><strong>Search for a City:</strong></h4>
+                <h4 class="pt1"><strong>Search for a City:</strong></h4>
                 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control"id="search-city" aria-label="City Search" aria-describedby="search-button">
+                    <input type="text" class="formcontrol"id="searchcity" aria-label="City Search" aria-describedby="searchbutton">
                     <div class="input-group-append">
-                        <button class=" btn bg-primary text-light" id="search-button"><i class="fa fa-search"></i></button>
+                        <button class=" btn bg-primary text-light" id="searchbutton"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
                 
-                <button class=" btn btn-primary" type="button" id="clear-history">Clear history</button>
+                <button class=" btn btn-primary" type="button" id="clearhistory">Clear history</button>
                 
             </div>   
-           
+            <div class="col-sm-8">
+                <div class="row ml-2 border border-dark rounded">
+                    <div class="col-sm-12" id="currentweather">
+                        <h3 class="cityname mb-1 mt-2 bolder" id="currentcity"></h3>
+                        <p>Temperature:<span class="current" id="temperature"></span></p>
+                        <p>Humidity:<span class="current" id="humidity"></span></p> 
+                        <p>Wind Speed:<span class="current" id="windspeed"></span></p>
+                        <p>UV index:<span class="current "></span></p> 
+                    </div>
+                </div>
+             
+            </div>
     
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
