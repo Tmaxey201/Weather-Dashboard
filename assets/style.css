@@ -1,3 +1,21 @@
+*{
+ font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(img/1540016.jpg) ;
+    background-repeat:no-repeat;
+}
 
 
+.jumbotron {
+    
+ background-color:rgb(252, 244, 244);
+}
 
+h1 {
+    font-weight: bold;
+}
+
+.searcharea {
+    background-color: rgb(252, 244, 244);
+}
